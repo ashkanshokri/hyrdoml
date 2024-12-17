@@ -1,0 +1,6 @@
+{
+    "parent_path": "/datasets/work/ev-ca-macq/work/sho108/hydroml/results",
+    "camels_aus_attributes": "/datasets/work/lw-hydrofct/work/template/Data/CAMELS_AUS/CAMELS_AUS_Attributes&Indices_MasterTable.csv",
+    "camels_aus_v1": "/datasets/work/lw-hydrofct/work/template/Data/CAMELS_AUS/preprocessed",
+    "awra_postprocessed": "/datasets/work/d61-coastal-forecasting-wp3/work/sho108/AWRA/historical/v1/AWRALv7/preprocessed_catchment_mean/qtot_3"
+}

@@ -1,0 +1,6 @@
+{
+    "parent_path": "P://work//sho108//hydroml//results",
+    "camels_aus_attributes": "Z://Data//CAMELS_AUS//CAMELS_AUS_Attributes&Indices_MasterTable.csv",
+    "camels_aus_v1": "Z://Data//CAMELS_AUS//preprocessed", 
+    "awra_postprocessed": "L://work//sho108//AWRA//historical//v1//AWRALv7//preprocessed_catchment_mean//qtot_3"
+}
