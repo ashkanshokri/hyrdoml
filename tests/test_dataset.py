@@ -9,7 +9,7 @@ import tempfile
  
 @pytest.fixture
 def basic_config():
-    config = Config(device='cpu')
+    config = Config(device='cpu', platform='win')
     temp_dir = tempfile.mkdtemp()
     config.parent_path = temp_dir
     
@@ -56,7 +56,10 @@ def test_get_dataset(basic_config):
 
 def test_dataset_attributes(basic_config, sample_dataset):
     """Test if dataset has expected attributes."""
-    dataset = get_dataset(basic_config, split_name='cal')
+    try:
+        dataset = get_dataset(basic_config, split_name='cal')
+    except ValueError as e:
+        pytest.fail("Failed to get dataset. Please check the path mapping in config/path_mapping. \n Perhaps you need to run the notebook 03_build_a_path_mapping.ipynb to create the path mapping file. \n Error: " + str(e))
     assert hasattr(dataset, 'seqlen')
     assert hasattr(dataset, 'config')
     assert hasattr(dataset, 'split_name')

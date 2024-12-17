@@ -108,10 +108,6 @@ See [Data Structure](docs/data_structure.md) for detailed data format requiremen
 |----------|-------------|-------|
 | 01 Simulation | Learn how to use pre-trained models to generate runoff predictions from climate data for any catchment. Step-by-step guide with example data and code. | [Markdown version](docs/examples/01_simulation.md) \| [Notebook](examples/notebooks/01_simulation.ipynb) |
 | 02 Finetune for a custom catchment | Adapt existing models to your specific catchment by fine-tuning with local data. Includes tips for handling different data formats and optimizing model performance. | [Markdown version](docs/examples/02_finetune_for_a_custom_catchment.md) \| [Notebook](examples/notebooks/02_finetune_for_a_custom_catchment.ipynb) |
-| 03 Run evaluation | Comprehensive guide to evaluating model performance using various metrics. Learn how to assess prediction accuracy and model reliability. | [Markdown version](docs/examples/03_run_evaluation.md) \| [Notebook](examples/notebooks/03_run_evaluation.ipynb) |
-| 04 Visualization | Master the visualization tools to create insightful plots and graphs of your simulation results. Includes time series plots, error analysis, and performance metrics. | [Markdown version](docs/examples/04_visualization.md) \| [Notebook](examples/notebooks/04_visualization.ipynb) |
-| 05 How to make a new dataset | Detailed walkthrough on preparing and formatting your own data for model training. Covers data cleaning, preprocessing, and validation steps. | [Markdown version](docs/examples/05_how_to_make_a_new_dataset.md) \| [Notebook](examples/notebooks/05_how_to_make_a_new_dataset.ipynb) |
-
-
-
-
+| 03 Build a path mapping | Learn how to set up path mappings to organize your data and model files. Essential for working with multiple data sources and model versions. | [Markdown version](docs/examples/03_build_a_path_mapping.md) \| [Notebook](examples/notebooks/03_build_a_path_mapping.ipynb) |
+| 04 Run evaluation | Comprehensive guide to evaluating model performance using various metrics. Learn how to assess prediction accuracy and model reliability. | [Markdown version](docs/examples/04_run_evaluation.md) \| [Notebook](examples/notebooks/04_run_evaluation.ipynb) |
+| 05 Visualization | Master the visualization tools to create insightful plots and graphs of your simulation results. Includes time series plots, error analysis, and performance metrics. | [Markdown version](docs/examples/05_visualization.md) \| [Notebook](examples/notebooks/05_visualization.ipynb) |

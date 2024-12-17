@@ -7,15 +7,13 @@ Before installing HydroML, ensure you have:
 - pip, poetry or conda package manager
 
 
-## Dependencies
+## Installation Using Poetry - Recommended Method
 
-HydroML requires the following main packages:
-- PyTorch
-- PyTorch Lightning
-- xarray
-- pandas
-- numpy
-- tqdm
+Poetry is a tool for dependency management in Python projects. It allows you to manage dependencies and create virtual environments. You also can use it to install the dependencies. 
+
+```bash
+poetry install
+```
 
 ## Installation using pip
 
@@ -27,12 +25,6 @@ pip install -r requirements.txt
 
 
 
-## installation using poetry 
 
-Poetry is a tool for dependency management in Python projects. It allows you to manage dependencies and create virtual environments. You also can use it to install the dependencies. 
-
-```bash
-poetry install
-```
 
 

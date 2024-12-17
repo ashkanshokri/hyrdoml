@@ -46,3 +46,5 @@ results*/
 my_scripts
 
 reports/
+
+.pytest_cache/

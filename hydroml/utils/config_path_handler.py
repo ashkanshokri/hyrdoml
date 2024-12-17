@@ -9,7 +9,7 @@ def get_path_mapping_file(platform) -> Path:
     return get_package_base_dir() / 'hydroml' / 'config' / 'path_mappings' / f'{platform}.json'
 
 
-def get_path_mapping_file_from_config(path_mapping_file=None, platform=None) -> Dict[str, str]:
+def get_path_mapping_file_from_config(platform=None, path_mapping_file=None) -> Dict[str, str]:
     """Load path mappings from a JSON configuration file.
     
     Args:
@@ -34,7 +34,7 @@ def get_path_mapping_file_from_config(path_mapping_file=None, platform=None) -> 
     if platform is not None:
         path_mapping_file = get_path_mapping_file(platform)
         
-    if not path_mapping_file.exists():
+    if not Path(path_mapping_file).exists():
         raise FileNotFoundError(f"Path config file not found: {path_mapping_file}")
     
     return h.read_json(path_mapping_file)
