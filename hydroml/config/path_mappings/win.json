@@ -3,4 +3,4 @@
     "camels_aus_attributes": "//fs1-cbr.nexus.csiro.au/{d61-coastal-forecasting-wp3}/work/sho108_handover/data/camels_aus/v1/CAMELS_AUS_Attributes&Indices_MasterTable.csv",
     "camels_aus_v1": "//fs1-cbr.nexus.csiro.au/{d61-coastal-forecasting-wp3}/work/sho108_handover/data/camels_aus/v1//preprocessed",
     "awra_postprocessed": "//fs1-cbr.nexus.csiro.au/{d61-coastal-forecasting-wp3}/work/sho108_handover/data/awra"
-}
+} 
